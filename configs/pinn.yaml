@@ -1,0 +1,29 @@
+module: pinn
+
+general:
+  project_name: diode_transport_project
+  verbose: true
+  random_seed: 42
+
+data:
+  mode: surrogate
+  input_features: [gap, voltage, emitter_radius]
+  target: current_limit
+
+model:
+  input_dim: 3
+  hidden_dim: 64
+  num_layers: 4
+  output_dim: 1
+  activation: tanh
+
+train:
+  epochs: 200
+  lr: 1.0e-3
+  batch_size: 32
+  optimizer: adam
+
+output:
+  save_dir: results/pinn
+  save_plots: true
+  save_model: true

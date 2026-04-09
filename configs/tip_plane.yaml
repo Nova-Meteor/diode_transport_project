@@ -1,0 +1,29 @@
+module: tip_plane
+
+general:
+  project_name: diode_transport_project
+  verbose: true
+  random_seed: 42
+
+geometry:
+  tip_radius: 50.0e-9
+  tip_height: 1.0e-6
+  gap: 5.0e-6
+  anode_voltage: 500.0
+
+particles:
+  num_electrons: 100
+  init_energy_ev: 0.2
+  dt: 1.0e-14
+  steps: 1000
+  include_coulomb: true
+  emission_model: placeholder
+
+solver:
+  outer_self_consistent_loops: 3
+  track_trajectory: true
+
+output:
+  save_dir: results/tip_plane
+  save_plots: true
+  save_particles: false

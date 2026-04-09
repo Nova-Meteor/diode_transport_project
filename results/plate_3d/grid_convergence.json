@@ -1,0 +1,79 @@
+{
+  "status": "ok",
+  "grid_sizes": [
+    9,
+    17,
+    33
+  ],
+  "converged_case_count": 0,
+  "total_case_count": 3,
+  "rows": [
+    {
+      "n": 9,
+      "h": 1.25e-05,
+      "j_limit": 325073.851073597,
+      "center_gradient": 10874.897723653237,
+      "edge_enhancement": 24.733087872142367,
+      "solver_iterations": 14,
+      "outer_iterations": 8,
+      "converged": false,
+      "max_delta": 1.8688396659882754e-05,
+      "elapsed_s": 0.09264763900000617,
+      "objective_abs": 10874.897723653237
+    },
+    {
+      "n": 17,
+      "h": 6.25e-06,
+      "j_limit": 287330.7975540057,
+      "center_gradient": 773.9799082205668,
+      "edge_enhancement": 511.51380325698364,
+      "solver_iterations": 62,
+      "outer_iterations": 8,
+      "converged": false,
+      "max_delta": 1.7945206491987163e-05,
+      "elapsed_s": 0.91000331500004,
+      "objective_abs": 773.9799082205668
+    },
+    {
+      "n": 33,
+      "h": 3.125e-06,
+      "j_limit": 279156.54942346446,
+      "center_gradient": 509.5400164409097,
+      "edge_enhancement": 847.860031022437,
+      "solver_iterations": 164,
+      "outer_iterations": 8,
+      "converged": false,
+      "max_delta": 1.9978227595274232e-05,
+      "elapsed_s": 13.203573778999953,
+      "objective_abs": 509.5400164409097
+    }
+  ],
+  "observed_order_j": 2.2070532033994748,
+  "richardson_j": 276896.79183026793,
+  "gci_fine_j_percent": 1.0118684291410922,
+  "gci_coarse_j_percent": 4.539195681667507,
+  "asymptotic_ratio_j": 0.9715510895451268,
+  "observed_order_center_gradient": 5.255402749169693,
+  "richardson_center_gradient": 502.4309214063664,
+  "gci_fine_center_gradient_percent": 1.743998215341287,
+  "centerline_errors": [
+    {
+      "n": 9,
+      "h": 1.25e-05,
+      "l2_rel": 0.054296583405612636,
+      "linf_rel": 0.04128700406356474
+    },
+    {
+      "n": 17,
+      "h": 6.25e-06,
+      "l2_rel": 0.011364841402260057,
+      "linf_rel": 0.00844547262205035
+    },
+    {
+      "n": 33,
+      "h": 3.125e-06,
+      "l2_rel": 0.0,
+      "linf_rel": 0.0
+    }
+  ]
+}

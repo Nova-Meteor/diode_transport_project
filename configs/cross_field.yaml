@@ -1,0 +1,27 @@
+module: cross_field
+
+general:
+  project_name: diode_transport_project
+  verbose: true
+  random_seed: 42
+
+fields:
+  E: [0.0, 0.0, 1.0e5]
+  B: [0.0, 1.0, 0.0]
+
+particles:
+  charge: -1.602176634e-19
+  mass: 9.1093837015e-31
+  initial_position: [0.0, 0.0, 0.0]
+  initial_velocity: [1.0e6, 0.0, 0.0]
+  dt: 1.0e-12
+  steps: 5000
+
+solver:
+  integrator: boris
+  include_space_charge_placeholder: true
+
+output:
+  save_dir: results/cross_field
+  save_plots: true
+  save_trajectory: true

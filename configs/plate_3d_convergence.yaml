@@ -1,0 +1,115 @@
+module: plate_3d
+general:
+  project_name: diode_transport_project
+  verbose: true
+  random_seed: 42
+geometry:
+  lx: 0.001
+  ly: 0.001
+  d: 0.0001
+  emitter_radius: 0.0002
+  cathode_z: 0.0
+  anode_z: 0.0001
+grid:
+  nx: 21
+  ny: 21
+  nz: 21
+physics:
+  anode_voltage: 100.0
+  injected_current_density: 2.5e5
+  epsilon0: 8.854e-12
+  electron_charge: 1.602176634e-19
+  electron_mass: 9.1093837015e-31
+  phi_floor: 0.5
+  injected_energy_ev: 0.2
+solver:
+  method: SOR
+  omega: 1.5
+  tol: 5.0e-05
+  max_iter: 180
+  outer_max_iter: 12
+  outer_tol: 0.002
+  checkpoint_every: 50
+  outer_min_iter: 2
+  outer_phi_tol: 0.002
+  outer_rho_tol: 0.012
+  outer_field_tol: 0.08
+  outer_phi_relaxation: 0.7
+  outer_rho_relaxation: 0.45
+  outer_phi_relaxation_min: 0.2
+  outer_rho_relaxation_min: 0.15
+  outer_adaptive_relaxation: true
+  outer_growth_trigger: 1.1
+search:
+  base_reference: cl
+  scan_factors:
+  - 0.7
+  - 0.95
+  - 1.15
+  - 1.35
+  expansion_ratio: 1.16
+  max_factor: 2.0
+  pre_refine_subdivisions: 3
+  objective_tol: 1.0e3
+  current_rel_tol: '4.0e-3'
+  max_iter: 5
+  refine_objective_threshold: 8.0e3
+  refine_solver_overrides:
+    tol: '2.0e-05'
+    max_iter: 260
+    outer_max_iter: 16
+    outer_phi_tol: '1.2e-3'
+    outer_rho_tol: '1.0e-2'
+    outer_field_tol: '5.0e-2'
+  radius_factors:
+  - 0.8
+  - 1.0
+  - 1.2
+convergence:
+  enabled: true
+  grid_sizes:
+  - 9
+  - 17
+  - 25
+  safety_factor: 1.25
+  search_overrides:
+    scan_factors:
+    - 1.0
+    - 1.2
+    - 1.4
+    seed_window_factors:
+    - 0.96
+    - 1.0
+    - 1.04
+    expansion_ratio: 1.1
+    max_factor: 1.9
+    pre_refine_subdivisions: 2
+    objective_tol: 1.0e3
+    current_rel_tol: '4.0e-3'
+    max_iter: 5
+    refine_objective_threshold: 6.0e3
+  solver_overrides:
+    omega: 1.45
+    tol: 2.0e-05
+    max_iter: 300
+    outer_max_iter: 14
+    outer_tol: 0.001
+    outer_min_iter: 3
+    outer_phi_tol: 0.0015
+    outer_rho_tol: 0.01
+    outer_field_tol: 0.06
+    outer_phi_relaxation: 0.65
+    outer_rho_relaxation: 0.4
+    outer_phi_relaxation_min: 0.2
+    outer_rho_relaxation_min: 0.15
+    outer_adaptive_relaxation: true
+    outer_growth_trigger: 1.08
+boundary:
+  cathode_potential: 0.0
+  anode_potential: 100.0
+  side_boundary: neumann
+output:
+  save_dir: results/plate_3d
+  save_plots: true
+  save_npy: true
+  save_summary: true

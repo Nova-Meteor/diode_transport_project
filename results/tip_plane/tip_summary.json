@@ -1,0 +1,59 @@
+{
+  "module": "tip_plane",
+  "num_electrons": 96,
+  "dt": 1e-14,
+  "steps": 900,
+  "outer_loops": 3,
+  "tip_radius_m": 5e-08,
+  "tip_height_m": 1e-06,
+  "gap_m": 5e-06,
+  "anode_voltage_v": 500.0,
+  "final_effective_voltage_v": 488.38399999999996,
+  "include_coulomb": true,
+  "transmitted_fraction": 1.0,
+  "mean_final_energy_ev": 800.5775322063287,
+  "mean_transmitted_energy_ev": 800.5775322063287,
+  "energy_spread_std_ev": 110.98261793107113,
+  "emission_current_density_a_per_m2": 62996.13640203019,
+  "with_coulomb": {
+    "transmitted_fraction": 1.0,
+    "num_reached_anode": 96,
+    "num_lost_radially": 0,
+    "num_trapped": 0,
+    "mean_final_energy_ev": 800.5775322063287,
+    "mean_transmitted_energy_ev": 800.5775322063287,
+    "mean_radial_exit_energy_ev": 0.0
+  },
+  "without_coulomb": {
+    "transmitted_fraction": 1.0,
+    "num_reached_anode": 96,
+    "num_lost_radially": 0,
+    "num_trapped": 0,
+    "mean_final_energy_ev": 849.2135455412723,
+    "mean_transmitted_energy_ev": 849.2135455412723,
+    "mean_radial_exit_energy_ev": 0.0
+  },
+  "self_consistent_history": [
+    {
+      "loop": 1,
+      "effective_voltage_v": 488.38399999999996,
+      "transmitted_fraction": 1.0,
+      "mean_final_energy_ev": 831.1466879395866,
+      "field_reduction_v_per_m": 2323200.0000000084
+    },
+    {
+      "loop": 2,
+      "effective_voltage_v": 488.38399999999996,
+      "transmitted_fraction": 1.0,
+      "mean_final_energy_ev": 800.5775322063287,
+      "field_reduction_v_per_m": 2323200.0000000084
+    },
+    {
+      "loop": 3,
+      "effective_voltage_v": 488.38399999999996,
+      "transmitted_fraction": 1.0,
+      "mean_final_energy_ev": 800.5775322063287,
+      "field_reduction_v_per_m": 2323200.0000000084
+    }
+  ]
+}

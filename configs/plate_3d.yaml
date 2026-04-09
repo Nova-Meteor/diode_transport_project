@@ -1,0 +1,44 @@
+module: plate_3d
+
+general:
+  project_name: diode_transport_project
+  verbose: true
+  random_seed: 42
+
+geometry:
+  lx: 1.0e-3
+  ly: 1.0e-3
+  d: 1.0e-4
+  emitter_radius: 2.0e-4
+  cathode_z: 0.0
+  anode_z: 1.0e-4
+
+grid:
+  nx: 41
+  ny: 41
+  nz: 41
+
+physics:
+  anode_voltage: 100.0
+  injected_current_density: 1.0e4
+  epsilon0: 8.854e-12
+  electron_charge: 1.602176634e-19
+  electron_mass: 9.1093837015e-31
+
+solver:
+  method: SOR
+  omega: 1.6
+  tol: 1.0e-6
+  max_iter: 5000
+  checkpoint_every: 100
+
+boundary:
+  cathode_potential: 0.0
+  anode_potential: 100.0
+  side_boundary: neumann
+
+output:
+  save_dir: results/plate_3d
+  save_plots: true
+  save_npy: true
+  save_summary: true

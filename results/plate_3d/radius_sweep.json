@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "radius_factor": 0.7,
+      "emitter_radius": 0.00014,
+      "emitter_area": 6.157521601035994e-08,
+      "j_limit": 290121.39126100304,
+      "j_over_jcl": 1.2430742064197955,
+      "edge_enhancement": 242.9998725446004
+    },
+    {
+      "radius_factor": 1.0,
+      "emitter_radius": 0.0002,
+      "emitter_area": 1.2566370614359172e-07,
+      "j_limit": 283020.60612782516,
+      "j_over_jcl": 1.2126496906472177,
+      "edge_enhancement": 332.45990156205204
+    },
+    {
+      "radius_factor": 1.3,
+      "emitter_radius": 0.00026000000000000003,
+      "emitter_area": 2.1237166338267004e-07,
+      "j_limit": 281124.2359061861,
+      "j_over_jcl": 1.2045243714554958,
+      "edge_enhancement": 252.02047274722744
+    }
+  ]
+}

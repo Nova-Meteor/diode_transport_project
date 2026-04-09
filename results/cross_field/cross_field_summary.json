@@ -1,0 +1,51 @@
+{
+  "num_particles": 9,
+  "mean_final_energy_ev": 1.609773012668225,
+  "center_end_m": [
+    0.0012842158397214202,
+    1.995067188965987e-06,
+    3.2533966980442064e-06
+  ],
+  "drift_velocity_m_per_s": [
+    1027820.6633849961,
+    1596.0537511727896,
+    2610.6456652592647
+  ],
+  "larmor_radius_m": 5.333987965922689e-05,
+  "sheath_metrics": {
+    "cyclotron_frequency_rad_per_s": 14070560086.177305,
+    "larmor_radius_m": 5.333987965922689e-05,
+    "exb_drift_m_per_s": 1000000.0,
+    "sheath_thickness_m": 5.333987965922689e-05
+  },
+  "magnetic_scan": [
+    {
+      "B_magnitude_T": 0.0,
+      "mean_final_energy_ev": 901.944434434058,
+      "x_end_m": 0.0008009957595819617,
+      "z_end_m": 0.01126195600085163,
+      "larmor_radius_m": 0.0
+    },
+    {
+      "B_magnitude_T": 0.04,
+      "mean_final_energy_ev": 30.689362329741318,
+      "x_end_m": 0.0024406529748307215,
+      "z_end_m": 0.00036697508059596584,
+      "larmor_radius_m": 0.0004667972269263179
+    },
+    {
+      "B_magnitude_T": 0.08,
+      "mean_final_energy_ev": 1.609773012668225,
+      "x_end_m": 0.0012842158397214202,
+      "z_end_m": 3.2533966980442064e-06,
+      "larmor_radius_m": 5.333987965922689e-05
+    },
+    {
+      "B_magnitude_T": 0.12,
+      "mean_final_energy_ev": 2.1670775206482875,
+      "x_end_m": 0.0008385544976502381,
+      "z_end_m": 1.0311774200538381e-05,
+      "larmor_radius_m": 4.129998853306431e-05
+    }
+  ]
+}

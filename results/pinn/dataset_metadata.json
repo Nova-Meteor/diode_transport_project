@@ -1,0 +1,31 @@
+{
+  "dataset_kind": "physics_guided_surrogate",
+  "num_generated_samples": 64,
+  "num_anchor_samples": 3,
+  "noise_level": 0.01,
+  "radius_correction_range": [
+    1.2045243714554958,
+    1.2430742064197955
+  ],
+  "feature_ranges": {
+    "gap": [
+      8.090848292535443e-05,
+      0.00011876705509390895
+    ],
+    "voltage": [
+      70.44173618506032,
+      128.53734109820536
+    ],
+    "emitter_radius": [
+      0.00014,
+      0.00026000000000000003
+    ]
+  },
+  "base_reference": {
+    "gap": 0.0001,
+    "voltage": 100.0,
+    "emitter_radius": 0.0002,
+    "j_over_jcl": 1.2126496906472177
+  },
+  "note": "训练集由 plate_3d 已有半径扫描结果和 Child-Langmuir 物理缩放共同构建，不等同于全量高精度数值求解。"
+}

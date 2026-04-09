@@ -1,0 +1,50 @@
+{
+  "j_cl_1d": 233390.24312682656,
+  "current_limit_density": 283020.60612782516,
+  "j_over_jcl": 1.2126496906472177,
+  "center_gradient": 1240.952193449111,
+  "center_field_z": -1240.952193449111,
+  "emitter_mean_gradient": 198474.5400331589,
+  "emitter_max_gradient": 523663.11472224054,
+  "edge_mean_gradient": 412566.844077304,
+  "edge_enhancement": 332.45990156205204,
+  "inner_iterations": 158,
+  "outer_iterations": 6,
+  "converged": false,
+  "search_status": "使用扫描 + 割线/二分混合方法得到近似极限电流密度。",
+  "search_bracketed": true,
+  "evaluations": [
+    {
+      "current_density": 70017.07293804796,
+      "surface_gradient": 850471.7409038807
+    },
+    {
+      "current_density": 140034.14587609592,
+      "surface_gradient": 679274.1088709637
+    },
+    {
+      "current_density": 210051.2188141439,
+      "surface_gradient": 464476.87424477417
+    },
+    {
+      "current_density": 280068.29175219184,
+      "surface_gradient": 31103.425204697996
+    },
+    {
+      "current_density": 303407.3160648745,
+      "surface_gradient": -331810.6195603939
+    },
+    {
+      "current_density": 282068.554920651,
+      "surface_gradient": 11496.365318138045
+    },
+    {
+      "current_density": 282783.12876958476,
+      "surface_gradient": 3865.141045937166
+    },
+    {
+      "current_density": 283020.60612782516,
+      "surface_gradient": 1240.952193449111
+    }
+  ]
+}

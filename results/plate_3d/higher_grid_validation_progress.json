@@ -1,0 +1,27 @@
+{
+  "grid_sizes": [
+    17,
+    25,
+    37
+  ],
+  "results": [
+    {
+      "n": 17,
+      "j_limit": 276460.24283288844,
+      "root_objective": 5064.924662121938,
+      "converged": true
+    },
+    {
+      "n": 25,
+      "j_limit": 266713.5920309073,
+      "root_objective": -60.960010446109436,
+      "converged": true
+    },
+    {
+      "n": 37,
+      "j_limit": 264071.05195897666,
+      "root_objective": -9.787487873289535,
+      "converged": true
+    }
+  ]
+}

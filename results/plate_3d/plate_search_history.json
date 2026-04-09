@@ -1,0 +1,82 @@
+[
+  {
+    "current_density": 163373.17018877857,
+    "objective": 675578.3819663064
+  },
+  {
+    "current_density": 221720.73097048522,
+    "objective": 531466.8536309181
+  },
+  {
+    "current_density": 268398.7795958505,
+    "objective": 378512.3768672907
+  },
+  {
+    "current_density": 315076.82822121587,
+    "objective": 129640.37938552604
+  },
+  {
+    "current_density": 365489.12073661044,
+    "objective": -87775.06241381551
+  },
+  {
+    "current_density": 327679.9013500645,
+    "objective": 37515.29925598882
+  },
+  {
+    "current_density": 340282.9744789131,
+    "objective": 17091.441237472576
+  },
+  {
+    "current_density": 345136.6467571119,
+    "objective": -23775.418264388503
+  },
+  {
+    "current_density": 352886.0476077618,
+    "objective": -40992.60194399196
+  },
+  {
+    "current_density": 342312.88956267445,
+    "objective": -54796.768403679256
+  },
+  {
+    "current_density": 341297.9320207938,
+    "objective": -44734.98515603647
+  },
+  {
+    "current_density": 340790.45324985345,
+    "objective": -39841.26327188961
+  },
+  {
+    "current_density": 339601.90105118434,
+    "objective": -28004.124849188174
+  },
+  {
+    "current_density": 339913.50532225065,
+    "objective": -31047.609174223388
+  },
+  {
+    "current_density": 340225.10959331697,
+    "objective": -34133.97283690208
+  },
+  {
+    "current_density": 340435.32177503296,
+    "objective": -36241.320070118476
+  },
+  {
+    "current_density": 340536.7138643833,
+    "objective": -37265.328240201176
+  },
+  {
+    "current_density": 340848.3181354496,
+    "objective": -40415.59313417362
+  },
+  {
+    "current_density": 341159.9224065159,
+    "objective": -43400.217446988514
+  },
+  {
+    "current_density": 341471.52667758224,
+    "objective": -46424.155263139364
+  }
+]

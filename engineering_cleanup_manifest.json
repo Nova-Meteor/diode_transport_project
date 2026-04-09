@@ -1,0 +1,17 @@
+{
+  "active_entrypoint": "src/main.py",
+  "archived_probe_scripts": [
+    "tools/experimental_plate3d/probe55_single.py",
+    "tools/experimental_plate3d/probe55_step.py",
+    "tools/experimental_plate3d/run55_from_cached2.py"
+  ],
+  "plate_final_release_dir": "results/plate_3d/final_release",
+  "plate_convergence_dir": "results/plate_3d/convergence",
+  "plate_archive_dir": "results/plate_3d/archive/experimental",
+  "notes": "Legacy root-level result paths are preserved for runtime compatibility.",
+  "experimental_scripts_archived": [
+    "probe55_single.py",
+    "probe55_step.py",
+    "run55_from_cached2.py"
+  ]
+}

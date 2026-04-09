@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "metric": "center_gradient_probe",
+  "probe_factor": 0.95,
+  "grid_sizes": [
+    9,
+    13,
+    19
+  ],
+  "rows": [
+    {
+      "n": 9,
+      "h": 1.25e-05,
+      "j_limit": 307449.83615250257,
+      "center_gradient": 2.1597139281463265,
+      "center_gradient_patch": 77783.53816491812,
+      "center_gradient_probe": 141529.4901695007,
+      "root_objective": 2.1597139281463265,
+      "elapsed_s": 0.1355211979998785
+    },
+    {
+      "n": 13,
+      "h": 8.333333333333334e-06,
+      "j_limit": 287055.12119843333,
+      "center_gradient": 18.658395381336845,
+      "center_gradient_patch": 31374.12621413636,
+      "center_gradient_probe": 156774.90880512103,
+      "root_objective": 18.658395381336845,
+      "elapsed_s": 0.9240394420003213
+    },
+    {
+      "n": 19,
+      "h": 5.555555555555556e-06,
+      "j_limit": 274676.90902770456,
+      "center_gradient": 6.4634231259930175,
+      "center_gradient_patch": 24755.177367611923,
+      "center_gradient_probe": 166349.05629509286,
+      "root_objective": 6.4634231259930175,
+      "elapsed_s": 3.803406064000228
+    }
+  ],
+  "observed_order": 1.1473553091666904,
+  "richardson_extrapolated": 182511.97600138604,
+  "gci_fine_percent": 12.14533468529358,
+  "gci_coarse_percent": 20.520716127682018,
+  "asymptotic_check_ratio": 1.0610693864403582,
+  "r21": 1.5,
+  "r32": 1.5
+}
